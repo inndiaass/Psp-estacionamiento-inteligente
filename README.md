@@ -1,0 +1,1 @@
+este es un ejercicio sobre un estacionamiento inteligente, el objetivo es controlar el acceso de coches —normales y VIP— a un aparcamiento con capacidad limitada, asegurando que se respeten las normas de prioridad, espera y desalojos.
