@@ -17,7 +17,7 @@ public class Coche extends Thread {
     public void run() {
         if (estacionamiento.entrar(this)) {
             try {
-                int tiempo = (int) (Math.random() * 4000) + 2000; // 2 a 6 segundos
+                int tiempo = (int) (Math.random() * 4000) + 2000;
                 Thread.sleep(tiempo);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
